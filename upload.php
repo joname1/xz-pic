@@ -93,7 +93,7 @@
 		    //如果上传成功
 		    if(move_uploaded_file($img_tmp,$dir_name)){
 			    //请在下面设置您自己的域名
-			    $img_url = 'http://localhost/xz-pic/'.$dir_name;		//自定义图片路径
+			    $img_url = 'https://picss.herokuapp.com/'.$dir_name;		//自定义图片路径
 			    $img_info = getimagesize($dir_name);
 			    $img_width = $img_info['0'];	//图片宽度
 			    $img_height = $img_info['1'];	//图片高度
@@ -103,7 +103,7 @@
 		    }
 		    //没有上传成功
 		    else{
-			    echo '错误';
+			    echo '错误啦!';
 		    }
 	    }
 	}

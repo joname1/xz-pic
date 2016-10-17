@@ -2,10 +2,9 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta charset="utf-8" />
-	<title>小z博客专用图床 - 小z博客</title>
+	<title>博客专用图床</title>
 	<meta name="generator" content="EverEdit" />
-	<meta name="author" content="小z" />
-	<meta name="keywords" content="图床,小z博客,小z图床" />
+	<meta name="keywords" content="图床,博客" />
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="./css/style.css" type="text/css" media="screen" />
 	<script type="text/javascript" src="./js/jquery.min.js"></script>
@@ -25,7 +24,7 @@
 	<div id = "up">
 		<center>
 		<form enctype="multipart/form-data" method="post" action="./upload.php" id = "upform">
-		<input name="Token" id = "token" value="这里填写您在贴图库获取的Token" type="hidden">
+		<input name="Token" id = "token" value="inputyourtoken" type="hidden">
 		<input type="file" name="file" id = "file" class = "up-file">
 		<input type="submit" id = 'btn' value = "开始上传" class = "btn">
 		</form>
@@ -60,16 +59,14 @@
 	<!--图片上传成功后显示-->
 	<div id = "img-box"><center><a href = "" id = "img-url" target = "_blank" title = "点此查看原图" rel = "nofollow"><img src = "" id = "show_img" width="" height="" /></a></center></div>
 	<!--底部版权-->
-	<div id = "footer">©2015 Powered by <a href = "https://www.xiaoz.me" target = "_blank">小z博客</a> | <a href = "https://github.com/helloxz/xz-pic" rel = "nofollow" target = "_blank">源码下载 | <a href = "javascript:;" onclick = "use();">使用说明</a></div>
+	<div id = "footer">Copyright © 2016 <a href = "javascript:;" onclick = "use();">使用说明</a></div>
 	<div id = "zhezhao">
 		<div id = "instructions">
-			<div id = "use-title">使用说明（必看）：<div id = "close"><a href = "javascript:;">关闭</a></div></div>
+			<div id = "use-title">使用说明(必看)：<div id = "close"><a href = "javascript:;">关闭</a></div></div>
 			<ul>
 				<li>支持HTTPS，CDN加速，上传限制为2M</li>
 				<li>推荐使用Chrome、Firefox浏览器</li>
-				<li>严禁上传任何色情、暴力、反动等图片，否则直接删除</li>
-				<li>项目地址：<a href = "https://github.com/helloxz/xz-pic" rel = "nofollow" target = "_blank" title = "点此下载源码">https://github.com/helloxz/xz-pic</a></li>
-				<li>使用文档请参考：<a href = "https://github.com/helloxz/xz-pic" rel = "nofollow" target = "_blank" title = "">https://github.com/helloxz/xz-pic</a></li>
+				<li>随意上传任何色情、暴力、反动等图片</li>
 			</ul>
 		</div>
 	</div>
